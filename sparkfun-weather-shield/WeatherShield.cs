@@ -202,9 +202,7 @@ namespace Microsoft.Maker.Sparkfun.WeatherShield
                 * Write the GPIO pin value of low on the pin
                 * Set the GPIO pin drive mode to output
                 */
-            BlueLedPin = gpio.OpenPin(statusLedBluePin, GpioSharingMode.Exclusive);
-            BlueLedPin.Write(GpioPinValue.Low);
-            BlueLedPin.SetDriveMode(GpioPinDriveMode.Output);
+            //TODO: Add your code here. [HINT: see GreenLEDPin]
 
             /*
                 * Initialize the green LED and set to "off"
