@@ -1,0 +1,6 @@
+[submodule "htu21d"]
+	path = htu21d
+	url = https://github.com/ms-iot/htu21d.git
+[submodule "mpl3115a2"]
+	path = mpl3115a2
+	url = https://github.com/ms-iot/mpl3115a2.git
